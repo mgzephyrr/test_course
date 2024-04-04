@@ -25,19 +25,22 @@ const config = {
         },
         light: {
           1: '#F2F3F7',
-          2: '#FFFFFF'
+          2: '#FFFFFF',
+          3: '#FCFCFC'
         },
         blue: {
           1: '#73AEF7',
-          2: '#002D6E' // цвет текста
+          2: '#002D6E',
+          3: '#0A3C82'
         },
         sky: {
-          1: '#C9DDFF'
+          1: '#C9DDFF',
+          2: '#E4EEFF'
         },
         moss: {
           1: '#415111'
         },
-        test: '#E4EEFF',
+        test: '#0A3C82',
       },
       backgroundImage: {
           hero: "url('/images/hero-background.jpg')"
