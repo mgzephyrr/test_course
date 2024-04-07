@@ -20,3 +20,5 @@ export const sidebarLinks = [
         imgUrl: '/icons/feedback.svg'
     }
 ]
+
+export const WebSiteName = 'Название сайта'

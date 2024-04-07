@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import MobileNav from './MobileNav'
+import { WebSiteName } from '@/constants'
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
           alt='Site-logo'
           className='max-sm:size-10'
         />
-        <p className='text-[26px] text-blue-2 font-extrabold max-sm:hidden'> бебебе </p>
+        <p className='text-[26px] text-blue-2 font-extrabold max-sm:hidden'> {WebSiteName} </p>
       </Link>
 
       <div className='flex-between gap-5'>
